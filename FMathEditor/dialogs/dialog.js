@@ -10,7 +10,7 @@ var dialog = CKEDITOR.dialog.add( 'FMathEditorDialog', function( editor ) {
                 elements: [
                     {
                         type: 'html',
-                        html: '<iframe id="editorIFrame" style="width:1024px;height:500px" src="'+ this.basePath +'FMathEditor/editor/onlyEditor.html"></iframe>'
+                        html: '<iframe id="editorIFrame" style="width:1024px;height:500px" src="'+ this.fmathPath +'FMathEditor/editor/onlyEditor.html"></iframe>'
                     }
                 ]
             }
